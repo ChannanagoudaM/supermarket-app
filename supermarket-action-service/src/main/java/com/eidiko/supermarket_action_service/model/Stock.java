@@ -1,6 +1,13 @@
 package com.eidiko.supermarket_action_service.model;
 
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Stock {
 
     private int id;
@@ -8,6 +15,9 @@ public class Stock {
     private String category;
     private int quantity;
     private double price;
+
+    public Stock(int i, String aapl, int i1, int i2) {
+    }
 
 
     public int getId() {
