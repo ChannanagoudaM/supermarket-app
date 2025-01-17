@@ -38,7 +38,7 @@ jobs:
             -Dsonar.projectKey=supermarket-action-service \
             -Dsonar.projectName=supermarket-action-service \
             -Dsonar.host.url=http://localhost:9000 \
-            -Dsonar.token=sqp_ad8308213f0cea08e77b14fa022c53c7ca52062b
+            -Dsonar.token=%SONAR_TOKEN% \
             -Dsonar.maven.plugin.version=3.9.0.215
 
 workflows:
